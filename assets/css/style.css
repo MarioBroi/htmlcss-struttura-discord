@@ -64,26 +64,37 @@ footer{
 .top-main-content{
     background-color: plum;
     border: 1px dashed black;
-    padding: 5rem 10rem;
+    height: 10rem;
+    width: 20rem;
 }
 
-.top-center{
+.main-center{
     background-color: white;
     display: flex;
     padding: 1rem 5rem;
-    justify-content: center;
+    
 }
 
-.top-center-content-left{
-    background-color: plum;
+.main-center-content-left{
+    background-color: pink;
     border: 1px dashed black;
     flex-grow: 1;
+    height: 10rem;
 }
 
-.top-center-content-right{
+.main-center-content-right{
     background-color: rgba(42, 145, 214, 0.822);
     border: 1px dashed black;
     flex-grow: 2;
+}
+
+
+.main-center-reverse{
+    background-color: white;
+    display: flex;
+    padding: 1rem 5rem;
+    background-color: lightgray;
+    flex-flow: row-reverse;
 }
 
 /* #endregion Main */
