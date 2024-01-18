@@ -64,15 +64,14 @@ footer{
 .top-main-content{
     background-color: plum;
     border: 1px dashed black;
-    height: 10rem;
-    width: 20rem;
+    height: 12rem;
+    width: 30rem;
 }
 
 .main-center{
     background-color: white;
     display: flex;
     padding: 1rem 5rem;
-    
 }
 
 .main-center-content-left{
@@ -95,6 +94,20 @@ footer{
     padding: 1rem 5rem;
     background-color: lightgray;
     flex-flow: row-reverse;
+}
+
+.bottom-main{
+    display: flex;
+    padding: 1rem 5rem;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.bottom-main-content{
+    background-color: green;
+    border: 1px dashed black;
+    height: 12rem;
+    width: 35rem;
 }
 
 /* #endregion Main */
