@@ -18,10 +18,13 @@ main {
 
 footer{
     background-color: rgb(31, 30, 30);
+    padding: 1px 12%;
 }
 
 hr{
     color: beige;
+    margin-inline-start: -100%;
+    margin-inline-end: -100%;
 }
 
 /* #endregion Common */
@@ -61,7 +64,8 @@ hr{
 
 .top-main{
     display: flex;
-    padding: 1rem 5rem;
+    /* padding: 1rem 5rem; */
+    padding: 3% 10%;
     justify-content: center;
 }
 
@@ -75,7 +79,7 @@ hr{
 .main-center{
     background-color: white;
     display: flex;
-    padding: 1rem 5rem;
+    padding: 3% 12%;
 }
 
 .main-center-content-left{
@@ -95,14 +99,15 @@ hr{
 .main-center-reverse{
     background-color: white;
     display: flex;
-    padding: 1rem 5rem;
+    padding: 3% 12%;
     background-color: lightgray;
     flex-flow: row-reverse;
 }
 
 .bottom-main{
     display: flex;
-    padding: 1rem 5rem;
+    /* padding: 1rem 5rem; */
+    padding: 2% 12%;
     justify-content: center;
     background-color: lightgray;
 }
@@ -121,7 +126,8 @@ hr{
 .footer-content{
     display: flex;
     justify-content: center;
-    padding: 0.1rem 1rem 2rem 1rem;
+    /* padding: 0.1rem 1rem 2rem 1rem; */
+    /* padding: 3% 12%; */
 }
 
 .footer-pink{
@@ -132,7 +138,7 @@ hr{
 
 .footer-acqua{
     background-color: aqua;
-    border: 1px dashed black;
+    border: 1px dashed white;
     flex-grow: 1;
     height: 10rem;
 }
@@ -141,6 +147,8 @@ hr{
     background-color: aquamarine;
     display: flex;
     justify-content: space-between;
+    /* width: 1rem; */
+    padding: 0p 12%;
 }
 
 .logo-bot{
