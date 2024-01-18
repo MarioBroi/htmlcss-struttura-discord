@@ -23,8 +23,7 @@ footer{
 
 hr{
     color: beige;
-    margin-inline-start: -100%;
-    margin-inline-end: -100%;
+    margin: 1em -16%;
 }
 
 /* #endregion Common */
@@ -64,7 +63,6 @@ hr{
 
 .top-main{
     display: flex;
-    /* padding: 1rem 5rem; */
     padding: 3% 10%;
     justify-content: center;
 }
@@ -73,7 +71,7 @@ hr{
     background-color: plum;
     border: 1px dashed black;
     height: 12rem;
-    width: 30rem;
+    width: 80%;
 }
 
 .main-center{
@@ -106,7 +104,6 @@ hr{
 
 .bottom-main{
     display: flex;
-    /* padding: 1rem 5rem; */
     padding: 2% 12%;
     justify-content: center;
     background-color: lightgray;
@@ -116,7 +113,7 @@ hr{
     background-color: green;
     border: 1px dashed black;
     height: 12rem;
-    width: 35rem;
+    width: 100%
 }
 
 /* #endregion Main */
@@ -126,8 +123,6 @@ hr{
 .footer-content{
     display: flex;
     justify-content: center;
-    /* padding: 0.1rem 1rem 2rem 1rem; */
-    /* padding: 3% 12%; */
 }
 
 .footer-pink{
@@ -147,18 +142,17 @@ hr{
     background-color: aquamarine;
     display: flex;
     justify-content: space-between;
-    /* width: 1rem; */
     padding: 0p 12%;
 }
 
 .logo-bot{
-    background-color: white;
+    background-color: pink;
     border: 1px dashed black;
     margin: 1rem 0;
 }
 
 .btn{
-    background-color: white ;
+    background-color: pink ;
     border: 1px dashed black;
     margin: 1rem 0;
 }
