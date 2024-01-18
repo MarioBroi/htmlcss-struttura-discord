@@ -17,7 +17,11 @@ main {
 }
 
 footer{
-    background-color: limegreen;
+    background-color: rgb(31, 30, 30);
+}
+
+hr{
+    color: beige;
 }
 
 /* #endregion Common */
@@ -111,3 +115,44 @@ footer{
 }
 
 /* #endregion Main */
+
+/* #region Footer */
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    padding: 0.1rem 1rem 2rem 1rem;
+}
+
+.footer-pink{
+    background-color: pink;
+    border: 1px dashed black;
+    flex-grow: 2;
+}
+
+.footer-acqua{
+    background-color: aqua;
+    border: 1px dashed black;
+    flex-grow: 1;
+    height: 10rem;
+}
+
+.footer-logo{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-bot{
+    background-color: white;
+    border: 1px dashed black;
+    margin: 1rem 0;
+}
+
+.btn{
+    background-color: white ;
+    border: 1px dashed black;
+    margin: 1rem 0;
+}
+
+/* #endregion Footer */
