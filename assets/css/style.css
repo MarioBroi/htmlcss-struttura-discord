@@ -13,7 +13,7 @@ header {
 }
 
 main {
-    background-color: blueviolet;
+    background-color: blue;
 }
 
 footer{
@@ -23,6 +23,7 @@ footer{
 /* #endregion Common */
 
 /* #region Header */
+
 
 .top-header{
     display: flex;
@@ -51,3 +52,38 @@ footer{
 }
 
 /* #endregion Header */
+
+/* #region Main */
+
+.top-main{
+    display: flex;
+    padding: 1rem 5rem;
+    justify-content: center;
+}
+
+.top-main-content{
+    background-color: plum;
+    border: 1px dashed black;
+    padding: 5rem 10rem;
+}
+
+.top-center{
+    background-color: white;
+    display: flex;
+    padding: 1rem 5rem;
+    justify-content: center;
+}
+
+.top-center-content-left{
+    background-color: plum;
+    border: 1px dashed black;
+    flex-grow: 1;
+}
+
+.top-center-content-right{
+    background-color: rgba(42, 145, 214, 0.822);
+    border: 1px dashed black;
+    flex-grow: 2;
+}
+
+/* #endregion Main */
