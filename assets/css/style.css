@@ -1,3 +1,53 @@
-body{
-    border: 0;
+/* #region Common */
+
+/* root{
+
+}*/
+
+body {
+    margin: 0;
 }
+
+header {
+    background-color: aqua;
+}
+
+main {
+    background-color: blueviolet;
+}
+
+footer{
+    background-color: limegreen;
+}
+
+/* #endregion Common */
+
+/* #region Header */
+
+.top-header{
+    display: flex;
+    padding: 0.5rem 3rem;
+    justify-content:center;
+}
+
+.logo{
+    border: 1px dashed black;
+    background-color: orange;
+    padding: 0.2rem 3rem 0.2rem 0.2rem;
+    align-self: flex-start;
+}
+
+.link{
+    border: 1px dashed black;
+    background-color: orange;
+    padding: 0.1rem 3rem;
+}
+
+.login{
+    border: 1px dashed black;
+    background-color: orange;
+    padding: 0.2rem 0.2rem 0.2rem 3rem;
+    align-self: flex-end;
+}
+
+/* #endregion Header */
